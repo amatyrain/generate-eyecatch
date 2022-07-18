@@ -26,12 +26,12 @@ body {
 .author-text {
   position: absolute;
   white-space: nowrap;
-  padding: 0 30px 20px 10px;
+  padding: 20px 30px 20px 20px;
   font-size: 50px;
-  top:  0;                     /* 位置指定 */
-  bottom:  0;                  /* 位置指定 */
-  left:  0;                    /* 位置指定 */
-  right:  20px;                   /* 位置指定 */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20px;
 }
 
 p {
@@ -53,7 +53,7 @@ p {
 #author-wrapper {
   position: absolute;
   bottom: 0;
-  right: 20px;
+  right: 40px;
   width: 400px;
   height: 120px;
 }
@@ -63,6 +63,10 @@ p {
   position: absolute;
   width: 73.31px;
   height: 80px;
+  top: 10px;
+  bottom: 0;
+  left: -50px;
+  right: 0;
 }
 
 body {
