@@ -61,13 +61,13 @@ p {
 }
 
 
-#author-wrapper > img {
+#img-wrapper > img {
   position: absolute;
-  width: 73.31px;
-  height: 80px;
-  top: 10px;
+  width: 560px;
+  height: 315px;
+  top: 400px;
   bottom: 0;
-  left: -50px;
+  left: 100px;
   right: 0;
 }
 
