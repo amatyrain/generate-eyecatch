@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  color: #383838;
+  /* 文字色を白にする場合、上をコメントアウトし下のコメントを解除 */
+  /* color: #fff; */
+}
+
+.title-text {
+  position: absolute;
+  width: 1100px;
+  height: 333px;
+  padding: 20px;
+  top:  0;                     /* 位置指定 */
+  bottom:  0;                  /* 位置指定 */
+  left:  0;                    /* 位置指定 */
+  right:  0;                   /* 位置指定 */
+  margin:  auto;
+
+  font-weight: 600;
+  font-size: 70px;
+  display: inline-block;
+
+  color: #000000;
+}
+
+.author-text {
+  position: absolute;
+  white-space: nowrap;
+  padding: 20px 30px 20px 20px;
+  font-size: 50px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 0 30px 30px 30px;
+  white-space: pre-wrap;
+  text-align: center;
+  z-index: 1;
+}
+
+#img-wrapper {
+  background-image: url('../image/4590_S.png');
+  background-size: cover;
+  width: 1280px;
+  height: 720px;
+  position: relative;
+}
+
+#author-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  width: 400px;
+  height: 120px;
+}
+
+
+#img-wrapper > img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 410px;
+  bottom: 0;
+  /* left: 0; */
+  right: 150px;
+}
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-weight: bold;
+}
